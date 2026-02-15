@@ -1,0 +1,52 @@
+body {
+    border: dashed rgb(76, 0, 255);
+    background-image: url(56631fa1cf153ba6ac23d0b2aaf4bc3.jpg);
+    background-color: rgb(2, 250, 147);
+            -webkit-animation: change 10s 2s infinite;
+            animation: change 10s 2s infinite;      
+}
+ @-webkit-keyframes change{
+            0%{
+                background-color: lightslategray;
+            }
+            20%{
+                background-color: crimson;
+            }
+            40%{
+                
+                background-color: lawngreen;
+            }
+            60%{
+                background-color: purple;
+            }
+            80%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: orange;
+            }
+        
+ @keyframes change{
+            0%{
+                background-color: lightslategray;
+            }
+            20%{
+                background-color: crimson;
+            }
+            40%{
+                background-color: lawngreen;
+            }
+            60%{
+                background-color: purple;
+            }
+            80%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: orange;
+            }
+            
+
+        
+
+ 
